@@ -32,9 +32,9 @@ public class TestLogin {
 	
   @Test
   public void testDoLogin() throws IOException {
-	  driver.findElement(By.xpath("//*[@id='Email']")).sendKeys(Keys.chord(Keys.CONTROL,"a"),"prynktaware@gmail.com");
+	  driver.findElement(By.xpath("//*[@id='Email']")).sendKeys(Keys.chord(Keys.CONTROL,"a"),"pxxxxxx@gmail.com");
 	  driver.findElement(By.xpath("//*[@id='next']")).click();
-	  driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys(Keys.chord(Keys.CONTROL,"a"),"smartmove23");
+	  driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys(Keys.chord(Keys.CONTROL,"a"),"xxxxxxxx");
 	  driver.findElement(By.xpath("//*[@id='signIn']")).click();
 	  try{
 		  String actual=driver.findElement(By.xpath("//*[@id='gb']/div[1]/div[1]/div[1]/div/span")).getText();
